@@ -1,5 +1,5 @@
-# PlayList_IntroduccionAlgoritmos
+# PlayList Algoritmos y Estructuras de Dato
 
-Material del curso que realizo en Youtube sobre Introducción a los Algoritmos
+Material del curso que realizo en Youtube sobre Algoritmos y Estructuras de Dato
 
 * PlayList: https://www.youtube.com/playlist?list=PLCl11UFjHurBVKB3ddFMg6FuBVc4HW2fq
