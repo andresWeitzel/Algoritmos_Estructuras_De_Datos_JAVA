@@ -1,4 +1,4 @@
-# PlayList Algoritmos y Estructuras de Dato
+# PlayList Algoritmos y Estructuras de Datos
 
 Material del curso que realizo en Youtube sobre Algoritmos y Estructuras de Dato
 
