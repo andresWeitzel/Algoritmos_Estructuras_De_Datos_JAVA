@@ -17,7 +17,7 @@ import java.nio.file.Paths;
  * 
  * */
 
-public class AgregarElementosArchivoTXT {
+public class AgregarElementosArchivoTXTCompleted {
 
 	public static void main(String[] args){
 		

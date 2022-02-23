@@ -14,7 +14,7 @@ Los números telefónicos son..
 	+5545687978484222 */
 
 
-public class AgregarElementosStrings {
+public class AgregarElementosStringsCompleted {
 	
 	public static void main(String[] args) {
 		

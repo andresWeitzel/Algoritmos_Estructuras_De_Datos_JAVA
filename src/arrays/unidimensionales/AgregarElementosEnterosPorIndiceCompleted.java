@@ -10,7 +10,7 @@ del 0 al 100 dentro de un array.
   */
 
 
-public class AgregarElementosEnterosPorIndice {
+public class AgregarElementosEnterosPorIndiceCompleted {
 	
 	public static void main(String[] args) {
 		

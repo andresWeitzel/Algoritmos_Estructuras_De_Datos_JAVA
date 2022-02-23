@@ -10,7 +10,7 @@ import java.util.Locale;
  * deberan almacenarse solamente con 1 caracter despues del punto 
  * (Ej 1.0, 2.0, 12.9, etc )*/
 
-public class AgregarElementosAleatorios {
+public class AgregarElementosAleatoriosCompleted {
 	
 	public static void main(String[] args) {
 		

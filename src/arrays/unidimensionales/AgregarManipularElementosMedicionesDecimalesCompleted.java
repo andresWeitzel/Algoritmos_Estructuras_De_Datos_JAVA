@@ -16,45 +16,44 @@ import java.util.Arrays;
  * };
  * */
 
-public class AgregarManipularElementosMedicionesDecimales {
+public class AgregarManipularElementosMedicionesDecimalesCompleted {
 	
 	public static void main(String[] args) {
 		
+		  String arrayMediciones[] = {
+				  "12", "14.4", "17.6", "15.2", "16", "17",
+				  "23.6", "18.4", "17", "11", "17.2", "23",
+				  "33", "32.1", "11", "32.5", "30.2", "29.22"
+				  };
+		  
+		double arrayMedicionesDecimales[] = new double[arrayMediciones.length];  
+		  
 		
-		
-		String arrayMediciones[] = {
-				 "12", "14.4", "17.6", "15.2", "16", "17",
-				 "23.6", "18.4", "17", "11", "17.2", "23",
-				 "33", "32.1", "11", "32.5", "30.2", "29.22"
-				 };
-		
-		//Misma Longitud 
-		double arrayMedicionesDecimales[] = new double[arrayMediciones.length]; 
-		
-		
-		for (int i=0 ; i < arrayMediciones.length; i++) {
+	
+		for( int i=0; i < arrayMediciones.length ; i++) {
 			
 			//Nos aseguramos que sea decimal
-			if(arrayMediciones[i].contains(".")) {
+			if(arrayMediciones[i].contains(".") || arrayMediciones[i].contains(",")){
 				
-				//Guardamos el valor en formato decimal y de forma temporal 
+				//Guardamos el vaslor el formato decimal por cada iteracion
 				double valorTemperatura = Double.parseDouble(arrayMediciones[i]);
 				
-				//Filtramos los Mayores de 28 grados y lo guardamos en el nuevo array
+				
+				//Filtramos las mediciones mayores a 28 grados y lo guardamos en el nuevo array
 				if (valorTemperatura > 28.0) {
 					
-					arrayMedicionesDecimales[i]= valorTemperatura;
+					arrayMedicionesDecimales[i] = valorTemperatura;
 					
-					//Imprimimos el elemento
 					System.out.println(arrayMedicionesDecimales[i]);
-				
-						
+					
 				}
+				
 				
 			}
 			
-		
 		}
+		
+		  
 		
 	}
 	

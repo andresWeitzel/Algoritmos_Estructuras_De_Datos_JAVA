@@ -8,7 +8,7 @@ se le sumen 10 unidades.
 
 
 
-public class AgregarManipularElementosEnterosPorIndice {
+public class AgregarManipularElementosEnterosPorIndiceCompleted {
 	
 public static void main(String[] args) {
 		

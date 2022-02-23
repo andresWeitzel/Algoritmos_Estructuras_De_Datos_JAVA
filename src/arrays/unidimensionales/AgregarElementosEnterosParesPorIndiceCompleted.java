@@ -11,7 +11,7 @@ indice el numero 2(para no entrar en la discusión de si el 0 es par).
  */
 
 
-public class AgregarElementosEnterosParesPorIndice {
+public class AgregarElementosEnterosParesPorIndiceCompleted {
 	
 	public static void main(String[] args) {
 		

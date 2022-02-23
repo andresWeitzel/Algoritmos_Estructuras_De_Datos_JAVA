@@ -6,7 +6,7 @@ package arrays.unidimensionales;
  *  en tiempo de ejecución, generando una excepción.
  * */
 
-public class VerificacionDeIndices {
+public class VerificacionDeIndicesCompleted {
 	
 public static void main(String[] args) {
 	
